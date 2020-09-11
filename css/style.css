@@ -1,0 +1,250 @@
+/*google font link*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*font uses to headings*/
+h1,h2{
+font-family: 'Alfa Slab One', cursive;
+
+}
+h3,h4,h5,h6{
+font-family: 'Bebas Neue', cursive;
+}
+p,span,input{
+font-family: 'Montserrat', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+*{
+	margin:0;
+	padding:0;
+}
+/*header part start from here*/
+.logo-right{
+	margin-left: 680px;
+    margin-top: 20px;
+}
+.logo-right span{
+	font-weight: 700;
+    color: #3d2514 !important;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+header{
+	width:100%;
+	background: url(../img/phot.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:100vh;
+}
+nav{
+	padding: 25px 0 !important;
+}
+.nav-link{
+	color:#3d2514!important;
+    font-weight: 600 !important;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+/*text section*/
+.week{
+	margin-top: 120px;
+}
+.week h6{
+	color:#3d2514;
+	border:2px dashed #3d2514;
+	display:inline-block;
+	padding: 6px;
+
+}
+.week h1{
+    font-size: 72px;
+    color:#3d2514;
+    text-shadow: 3px 3px #fee8bc;
+}
+.week h2{
+	font-size: 38px;
+	color:#3d2514;
+	text-shadow: 3px 3px #fee8bc;
+
+}
+/*second part */
+.second{
+	width:100%;
+	padding: 80px 0;
+	
+}
+.picture{
+	position: relative;
+}
+.picture-left{
+	position:absolute;
+	top:0;
+	left:0;
+	padding: 25px 25px;
+    color: white;
+}
+.picture-left h3{
+	line-height: 30px;
+}
+.up-pic, .down-pic{
+	position:relative;
+}
+.down-pic{
+	margin:32px 0;
+}
+.button-circle{
+	text-align: center;
+	margin:30px 0;
+}
+button{
+	padding:10px 30px !important;
+	color:#3d2514 !important;
+	font-family: 'Bebas Neue', cursive !important;
+}
+.btn-primary{
+    background: #ffc045 !important;
+    border:1px solid #ffc045 !important;
+    border-radius: 0 !important;
+
+}
+/*order section*/
+.order{
+	text-align: center;
+	width:100%;
+}
+.order h1{
+	color: #3d2514;
+	margin-bottom: 30px;
+}
+.top, .bottom{
+	margin-bottom: 30px;
+}
+.order button{
+	font-family: 'Alfa Slab One', cursive !important;
+	color:white !important;
+	background: red !important;
+	border:1px solid red;
+}
+/*plugin section*/
+.event{
+	width:100%;
+	padding: 80px 0;
+}
+.event h2{
+	color:#3d2514;
+}
+.event-info{
+	padding:50px 20px;
+}
+.event-body{
+	transition: all 0.5s ease-in-out;
+}
+.event-body:hover{
+	box-shadow: 5px 5px 14px 0 rgba(0,0,0,0.6);
+	transition: all 0.5s ease-in-out;
+}
+.owl-nav{
+	display:none;
+}
+.owl-dots{
+	position: absolute;
+    bottom: 0;
+    left: 40px;
+    top: 290px;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+	background: #ffc045 !important;
+}
+/*form section*/
+.form-sheet {
+    width: 100%;
+    background: url(../img/photo.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.title {
+    color: #3d2514;
+    text-align: center;
+    margin-left: 330px;
+    margin-top: 50px;
+}
+.form-input {
+    padding: 50px 300px;
+}
+.form-input input{
+	border-radius: 5px;
+    height: 50px;
+    width: 263px;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 20px;
+}
+.form-input button{
+	width: 260px;
+    font-size: 19px;
+    margin: 21px 20px;
+    padding: 12px;
+    color: white !important;
+    background: #bf2222;
+    font-family: 'Alfa Slab One', cursive !important;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #bf2222;
+}
+/*last section*/
+.last{
+	width:100%;
+	background: url(../img/photo-14.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.last-left{
+	margin: 90px 0px;
+}
+.title-left p{
+	color: white;
+    margin: 60px 0;
+    font-size: 18px;
+}
+.title-left span{ 
+	color:white;
+}
+.last-right{
+	margin: 190px 82px;
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+}
+.last-right ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0px -10px;
+    margin-left: 85px;
+}
+
+.icons{
+	margin-left:125px;
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: white;
+    line-height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    margin-left: 7px;
+    margin: 115px 5px;
+}
